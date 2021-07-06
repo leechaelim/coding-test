@@ -1,4 +1,7 @@
-# coding-test
+<center>가운데</center> 
+<center>#coding-test</center>
+
+
 자료 1. 이것이 취업을 위한 코딩테스트다 with python 
 
 ## PART 02 - 주요 알고리즘 이론과 실전 문제
