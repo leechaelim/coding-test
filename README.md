@@ -1,11 +1,11 @@
-<center>가운데</center> 
-<center>#coding-test</center>
+<div align="center"><h1/>< 코딩테스트 공부 ></h1></div>
+자료 1. 이것이 취업을 위한 코딩테스트다 with python (나동빈 저, 한빛미디어)
 
-
-자료 1. 이것이 취업을 위한 코딩테스트다 with python 
+</br>
+</br>
+<div align="center"><h2/>목록</h2></div>
 
 ## PART 02 - 주요 알고리즘 이론과 실전 문제
-
 ### CHAPTER 03 그리디
 
 > 당장 좋은 것만 선택하는 그리디
@@ -69,6 +69,7 @@
 * 실전 문제: 도시 분할 계획
 
 
+</br>
 
 ## PART 03 알고리즘 유형별 기출문제
 
