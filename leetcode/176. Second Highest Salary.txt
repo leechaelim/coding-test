@@ -1,0 +1,15 @@
+# 내가 써서 틀린 거
+# NULL 일때 아무것도 안나옴
+SELECT Salary AS SecondHighestSalary 
+FROM (SELECT Salary, DENSE_RANK() OVER (ORDER BY Salary DESC) AS R
+      FROM Employee) RANKED
+WHERE RANKED.R = 2
+
+# 정답
+# 서브쿼리로 MAX만 뺀것에서의 MAX구해줌
+
+# Write your MySQL query statement below
+SELECT MAX(Salary) AS SecondHighestSalary
+FROM Employee
+WHERE Salary < (SELECT MAX(Salary)
+                FROM Employee)
